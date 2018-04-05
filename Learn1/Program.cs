@@ -10,6 +10,12 @@ namespace Learn1
     {
         static void Main(string[] args)
         {
+            int n1, n2;
+            Console.WriteLine("Enter two numbers for calculation\n");
+            n1 = int.Parse(Console.ReadLine());
+            n2 = int.Parse(Console.ReadLine());
+            Console.WriteLine(n1 + n2);
+            Console.ReadLine();
         }
     }
 }
